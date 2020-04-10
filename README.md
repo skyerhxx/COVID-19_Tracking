@@ -15,9 +15,9 @@
 >* MySQL 8.0.17
 >* Flask 1.1.1
 >*   Linux上:
->>*        阿里云 CentOS 8.0 64位
->>*         Python3.6
->>*         MySQL 8.0
+>>*  阿里云 CentOS 8.0 64位
+>>*  Python3.6
+>>*  MySQL 8.0
 
 ## IDE
 > Pycharm / Vscode / Sublime
@@ -39,9 +39,9 @@
 
 ## 运行方式：
 > ### **本地win10上:**
-	>> &emsp;&emsp;在mysql数据库中新建cov数据库，并在其中新建3张表details,history,hotsearch——具体见博客</br>
-	>> &emsp;&emsp;在utils.py和spider.py中更改get_conn函数中的数据库连接，host,user,password，db </br>
-	>> &emsp;&emsp;运行spider.py爬取数据写入到mysql中</br>
-	>> &emsp;&emsp;运行app.py</br></br>
+	>> 在mysql数据库中新建cov数据库，并在其中新建3张表details,history,hotsearch——具体见博客</br>
+	>> 在utils.py和spider.py中更改get_conn函数中的数据库连接，host,user,password，db </br>
+	>> 运行spider.py爬取数据写入到mysql中</br>
+	>> 运行app.py</br></br>
 > ### **远程主机上:**</br>
-	>> &emsp;&emsp;具体配置请见博客
+	>> 具体配置请见博客
