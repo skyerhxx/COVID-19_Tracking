@@ -39,9 +39,9 @@
 
 ## 运行方式：
 > ### **本地win10上:**
-	>> 在mysql数据库中新建cov数据库，并在其中新建3张表details,history,hotsearch——具体见博客</br>
-	>> 在utils.py和spider.py中更改get_conn函数中的数据库连接，host,user,password，db </br>
-	>> 运行spider.py爬取数据写入到mysql中</br>
-	>> 运行app.py</br></br>
+	>* 在mysql数据库中新建cov数据库，并在其中新建3张表details,history,hotsearch——具体见博客</br>
+	>* 在utils.py和spider.py中更改get_conn函数中的数据库连接，host,user,password，db </br>
+	>* 运行spider.py爬取数据写入到mysql中</br>
+	>* 运行app.py</br></br>
 > ### **远程主机上:**</br>
-	>> 具体配置请见博客
+	>* 具体配置请见博客
