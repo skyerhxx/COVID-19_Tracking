@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Page</title>
+    <script src="../static/js/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+    <h1>疫情追踪</h1>
+    <h3>实时报道</h3>
+    <button>点我有惊喜</button>
+    <script>
+        $("button").click(function () {
+            $.ajax({
+                url:"/ajax",
+                type:"post",
+                data:{"name":"李四","score":99},
+                success:function (d) {
+                    $("h1").html("武汉感染人数"+d)
+                },
+                error:function () {
+                    alert("发送ajax请求失败")
+                }
+            })
+
+        })
+    </script>
+</body>
+</html>

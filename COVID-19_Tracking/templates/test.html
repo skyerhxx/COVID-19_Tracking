@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="../static/js/echarts.min.js"></script>
+	</head>
+	<body>
+		<div id="main" style="width: 600px;height: 800px;"></div>
+		<script>
+			var ectest = echarts.init(document.getElementById("main"));
+			var option = {
+				xAxis: {
+					type: 'category',
+					data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+				},
+				yAxis: {
+					type: 'value'
+				},
+				series: [{
+					data: [1820, 932, 1901, 1934, 1290, 1330, 1320],
+					type: 'line'
+				}]
+			};
+			ectest.setOption(option);
+		</script>
+	</body>
+</html>
