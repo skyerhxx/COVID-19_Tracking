@@ -25,7 +25,7 @@
 </br>
 
 ## 具体介绍及项目过程
-> 
+> https://blog.csdn.net/hxxjxw/article/details/105336981
 
 </br>
 
@@ -44,4 +44,4 @@
 	运行spider.py爬取数据写入到mysql中
 	运行app.py
 > ### **远程主机上:**
-	具体配置请见博客
+	具体配置请见博客https://blog.csdn.net/hxxjxw/article/details/105336981
