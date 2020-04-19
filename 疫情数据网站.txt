@@ -9,3 +9,8 @@ https://news.qq.com//zt2020/page/feiyan.htm   腾讯
 https://view.inews.qq.com/g2/getOnsInfo?name=disease_h5
 
 https://view.inews.qq.com/g2/getOnsInfo?name=disease_other
+
+
+我们要爬取百度的疫情数据平台的今日疫情热搜
+
+https://voice.baidu.com/act/virussearch/virussearch?from=osari_map&tab=0&infomore=1
