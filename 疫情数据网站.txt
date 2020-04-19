@@ -1,0 +1,11 @@
+各大平台疫情数据的网站
+
+https://voice.baidu.com/act/newpneumonia/newpneumonia/?from=osari_pc_1     百度
+
+https://news.qq.com//zt2020/page/feiyan.htm   腾讯
+
+
+爬取腾讯yq数据
+https://view.inews.qq.com/g2/getOnsInfo?name=disease_h5
+
+https://view.inews.qq.com/g2/getOnsInfo?name=disease_other
